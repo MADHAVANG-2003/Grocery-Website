@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project_2</title>
+
+  <!--------CSS Links---------->
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--------icons Links---------->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+  <!--------AOS Animation Links---------->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  
+</head>
+<body>
+  
+    <!--------Header---------->
+
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="./assets/images/logo.png" alt="">
+        </div>
+        <ul class="navlinks">
+          <li><a href="./index.html">home</a></li>
+          <li><a href="./about.html">about</a></li>
+          <li><a href="./portfolio.html">portfolio</a></li>
+          <li><a href="./blog.html">blogs</a></li>
+          <li><a href="./shop.html">shop</a></li>
+          <li><a href="./contact.html">contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-basket-shopping"></i>
+          <i class="fa-regular fa-user"></i>
+
+          <span class="menu"></span>
+
+          <button class="main-btn">Consultations <i class="fa-solid fa-angles-right"></i></button>
+
+          <div class="bento">
+            <i class="fa-solid fa-grip-vertical"></i>
+          </div>
+          <div class="appoinment">
+            <div class="cross">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <h3 style="color: white; font-size: 1.5rem;">Get appointment</h3>
+            <div class="input-field">
+              <input type="text" placeholder="Name">
+            </div>
+            <div class="input-field">
+              <input type="email" placeholder="Emial">
+            </div>
+            <div class="textarea">
+              <textarea name="" id="" placeholder="Message"></textarea>
+            </div>
+            <button class="submit-btn">submit now</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-----------Home Page----------->
+    <section class="home" id="home">
+      <!-----------Hero Image----------->
+
+      <div class="hero">
+        <div class="container grid2">
+          
+            <div class="column1" data-aos="fade-right" data-aos-duration="2000">
+              <h2>Welcome to Munfirm</h2>
+              <h1>Organic Foods & Vegetables</h1>
+              <h4>25 Years of experience in agriculture farming</h4>
+              <div class="hero-btn">
+                <button class="main-btn">shop now <i class="fa-solid fa-angles-right"></i></button>
+                <button class="main-btn">learn more <i class="fa-solid fa-angles-right"></i></button>
+              </div>
+            </div>
+            <div class="column2" data-aos="fade-left" data-aos-duration="2000">
+              <div class="hero-img">
+                <img src="./assets/images/slider-image1.png" alt="">
+                <img src="./assets/images/organic.png" class="organic" alt="">
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-----------Populars Page----------->
+
+      <div class="populars">
+        <div class="container grid2">
+          <div class="column1" data-aos="fade-down">
+            <h2>Popular Foods and Vegetables</h2>
+            <h3>Quality Fruits & Vegetables</h3>
+          </div>
+          <div class="column2" data-aos="fade-up">
+            <p>On the other hand we denounce with righteou indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire</p>
+          </div>
+        </div>
+        <div class="pop-products container">
+          <div class="pro-box" data-aos="zoom-in-right" data-aos-duration="500">
+            <div class="pro-img">
+              <img src="./assets/images/icon1.png" alt="">
+            </div>
+            <a href="">Organic Fruits</a>
+            <div class="arrow-img">
+              <img src="./assets/images/arrow.png" alt="">
+            </div>
+          </div>
+          <div class="pro-box" data-aos="zoom-in-right" data-aos-duration="1000">
+            <div class="pro-img">
+              <img src="./assets/images/icon2.png" alt="">
+            </div>
+            <a href="">vegetables</a>
+            <div class="arrow-img">
+              <img src="./assets/images/arrow.png" alt="">
+            </div>
+          </div>
+          <div class="pro-box" data-aos="zoom-in-right" data-aos-duration="1500">
+            <div class="pro-img">
+              <img src="./assets/images/icon3.png" alt="">
+            </div>
+            <a href="">sea fish's</a>
+            <div class="arrow-img">
+              <img src="./assets/images/arrow.png" alt="">
+            </div>
+          </div>
+          <div class="pro-box" data-aos="zoom-in-right" data-aos-duration="2000">
+            <div class="pro-img">
+              <img src="./assets/images/icon4.png" alt="">
+            </div>
+            <a href="">crisp bakery</a>
+            <div class="arrow-img">
+              <img src="./assets/images/arrow.png" alt="">
+            </div>
+          </div>
+          <div class="pro-box" data-aos="zoom-in-right" data-aos-duration="2500">
+            <div class="pro-img">
+              <img src="./assets/images/icon5.png" alt="">
+            </div>
+            <a href="">chiken egg</a>
+            <div class="arrow-img">
+              <img src="./assets/images/arrow.png" alt="">
+            </div>
+          </div>          
+        </div>
+      </div>
+
+      <!-----------About Page----------->
+
+      <div class="about">
+        <div class="container grid2">
+          <div class="column1" data-aos="fade-down" data-aos-duration="1500">
+            <div class="about-img">
+              <img src="./assets/images/about1.jpg" alt="">
+              <img src="./assets/images/about2.jpg" alt="">
+              <img src="./assets/images/about3.jpg" alt="">
+              <img src="./assets/images/organic.png" class="organic" alt="">
+            </div>
+          </div>
+          <div class="column2" data-aos="fade-up" data-aos-duration="1500">
+            <h2>About Company</h2>
+            <h3>Organic & Helathy Foods Provider Farming</h3>
+            <div class="about-slide">
+              <h4>agriculture & <br> foods</h4>
+              <h4>vegetables &  <br> fruits</h4>
+            </div>
+            <p>On the other hand we denounce with righteous indignation and dislike men who are beguiled and demoralized by the charms of pleasure of the moment so blinded by desire, that they cannot foresee the pain</p>
+            <div class="author">
+              <div class="aut-img">
+                <img src="./assets/images/author.jpg" alt="">
+              </div>
+              <div class="name">
+                <h4>Michael D. Foreman</h4>
+              <h5>CEO & Founder</h5>
+              </div>
+              <div class="sign">
+                <img src="./assets/images/signature.png" alt="">
+              </div>    
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-----------Banner Page----------->
+
+      <div class="banner container"> 
+        <div class="banner-item" data-aos="flip-up" data-aos-duration="1000">
+          <div class="text">
+            <h2>35% off foods</h2>
+            <h4>Organic Vegetables</h4>
+            <p>best foods for your family</p>
+            <div class="btn">
+              <button class="main-btn">
+                shop now <i class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="banner-img">
+            <img src="./assets/images/offer-banner1.png" alt="">
+          </div>
+        </div>
+        <div class="banner-item" data-aos="flip-up" data-aos-duration="1000">
+          <div class="text">
+            <h2>35% off foods</h2>
+            <h4>Fresh Organic Fruits</h4>
+            <p>best foods for your family</p>
+            <div class="btn">
+              <button class="main-btn">
+                shop now <i class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="banner-img">
+            <img src="./assets/images/offer-banner2.png" alt="">
+          </div>
+        </div>
+        <div class="banner-item" data-aos="flip-up" data-aos-duration="1000">
+          <div class="text">
+            <h2>35% off foods</h2>
+            <h4>Ripe strawberries</h4>
+            <p>best foods for your family</p>
+            <div class="btn">
+              <button class="main-btn">
+                shop now <i class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="banner-img">
+            <img src="./assets/images/offer-banner3.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-----------Shop Page----------->
+
+      <div class="shop container">
+        <div class="center-text">
+          <h2>Popular Foods and Vegetables</h2>
+          <h3>Quality Fruits & Vegetables
+          </h3>
+        </div>
+        <div class="shop-container">
+          <div class="shop-box" data-aos="zoom-out-left" data-aos-duration="1500">
+            <div class="shop-img">
+              <img src="./assets/images/product1.png" alt="">
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="">fresh gooseberry</a>
+            <div class="rate">
+              <p class="strick">$25</p>
+              <p class="unstrick">$18</p>
+            </div>
+          </div>
+          <div class="shop-box" data-aos="zoom-out-left" data-aos-duration="1500">
+            <div class="shop-img">
+              <img src="./assets/images/product2.png" alt="">
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="">fresh carrot</a>
+            <div class="rate">
+              <p class="strick">$25</p>
+              <p class="unstrick">$18</p>
+            </div>
+          </div>
+          <div class="shop-box" data-aos="zoom-out-left" data-aos-duration="1500">
+            <div class="shop-img">
+              <img src="./assets/images/product3.png" alt="">
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="">organic brocolli</a>
+            <div class="rate">
+              <p class="strick">$25</p>
+              <p class="unstrick">$18</p>
+            </div>
+          </div>
+          <div class="shop-box" data-aos="zoom-out-left">
+            <div class="shop-img">
+              <img src="./assets/images/product4.png" alt="">
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="">chiken egg</a>
+            <div class="rate">
+              <p class="strick">$25</p>
+              <p class="unstrick">$18</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-----------Gallery Page----------->
+
+      <div class="gallery container">
+        <h2>Photo Gallery</h2>
+        <h3>Insite Photo Gallery</h3>
+        <div class="gallery-container">
+          <div class="gallery-box" data-aos="zoom-in-up" data-aos-duration="1500">
+            <img src="./assets/images/gallery1.jpg" alt="">
+            <div class="gallery-link">
+              <div class="gallery-text">
+                <h4>organic fruits</h4>
+                <p>fresh foods</p>
+              </div>
+              <button class="main-btn"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="gallery-box" data-aos="zoom-in-up" data-aos-duration="1500">
+            <img src="./assets/images/gallery2.jpg" alt="">
+            <div class="gallery-link">
+              <div class="gallery-text">
+                <h4>organic fruit juice</h4>
+                <p>fresh foods</p>
+              </div>
+              <button class="main-btn"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="gallery-box" data-aos="zoom-in-up" data-aos-duration="1500">
+            <img src="./assets/images/gallery3.jpg" alt="">
+            <div class="gallery-link">
+              <div class="gallery-text">
+                <h4>organic fruits</h4>
+                <p>fresh foods</p>
+              </div>
+              <button class="main-btn"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+          
+         
+        </div>
+      </div>
+
+      <!-----------Review Page----------->
+
+      <div class="review container">
+        <div class="grid2">
+          <div class="column1" data-aos="zoom-out-up" data-aos-duration="2000">
+            <h2>Customer Reviews</h2>
+            <h3>Valuable Customer’s Feedback (Reviews)</h3>
+              <div class="review-text">
+                <p><span>"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio placeat iste laboriosam aliquid modi ut earum quas similique officiis numquam rerum quasi odit, dicta deserunt, delectus nulla excepturi facere! <span>"</span></p>
+                <div class="author">
+                  <div class="aut-img">
+                    <img src="./assets/images/author.jpg" alt="">
+                  </div>
+                  <div class="name">
+                    <h4>Michael D. Foreman</h4>
+                    <h5>CEO & Founder</h5>
+                  </div>  
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="column2" data-aos="zoom-out-up" data-aos-duration="2000">
+            <div class="review-img">
+              <img src="./assets/images/feedback-right.png" alt="">
+              <img src="./assets/images/feedback-right.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-----------Blog Page----------->
+
+      <div class="blog container">
+        <div class="center-text">
+          <h2>Read Article Tips</h2>
+          <h3>Latest News & Blog</h3>
+        </div>
+        <div class="blog-container grid2">
+          <div class="blog-box" data-aos="flip-up" data-aos-duration="1500">
+            <div class="blog-img">
+              <img src="./assets/images/news1.jpg" alt="">
+            </div>
+            <h2>vegetables</h2>
+            <a href="">Unicode UTF8 Character Sets They Sltimate Guide Systems</a>
+            <br>
+            <button class="blog-btn">Read more <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          <div class="blog-box" data-aos="flip-up" data-aos-duration="1500">
+            <div class="blog-img">
+              <img src="./assets/images/news2.jpg" alt="">
+            </div>
+            <h2>farming</h2>
+            <a href="">Unicode UTF8 Character Sets They Sltimate Guide Systems</a>
+            <br>
+            <button class="blog-btn">Read more <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          <div class="blog-box" data-aos="flip-up" data-aos-duration="1500">
+            <div class="blog-img">
+              <img src="./assets/images/news3.jpg" alt="">
+            </div>
+            <h2>organic fruits</h2>
+            <a href="">Unicode UTF8 Character Sets They Sltimate Guide Systems</a>
+            <br>
+            <button class="blog-btn">Read more <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <!-----------Client Page----------->
+
+      <div class="client">
+        <marquee direction="left" scrollamount="8">
+          <div class="client-container">
+            <div class="client-img">
+              <img src="./assets/images/client-logo1.png" alt="">
+            </div>
+            <div class="client-img">
+              <img src="./assets/images/client-logo2.png" alt="">
+            </div>
+            <div class="client-img">
+              <img src="./assets/images/client-logo3.png" alt="">
+            </div>
+            <div class="client-img">
+              <img src="./assets/images/client-logo4.png" alt="">
+            </div>
+            <div class="client-img">
+              <img src="./assets/images/client-logo5.png" alt="">
+            </div>
+            <div class="client-img">
+              <img src="./assets/images/client-logo6.png" alt="">
+            </div>
+          </div>
+        </marquee>
+      </div>
+
+      <!-----------footer Page----------->
+
+      <div class="footer container">
+        <div class="subs grid2">
+          <h3>Newsletter Subscribe</h3>
+          <div class="input-box">
+            <input type="email" placeholder="Email Address" required>
+          </div>
+          <div class="foot-btn">
+            <button class="main-btn">Subscribe now <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+        </div>
+        <div class="foot">
+          <div class="foot-links">
+            <h4>Quick links</h4>
+            <ul class="link-item">
+              <li><a href="">home</a></li>
+              <li><a href="">about</a></li>
+              <li><a href="">portfolio</a></li>
+              <li><a href="">blogs</a></li>
+              <li><a href="">shop</a></li>
+              <li><a href="">contact</a></li>
+              <li><a href="">technology</a></li>
+              <li><a href="">vegetables</a></li>
+              <li><a href="">latest news</a></li>
+              <li><a href="">fruits</a></li>
+            </ul>
+          </div>
+          <div class="brand-links">
+            <div class="foot-logo">
+              <a href=""><img src="./assets/images/logo.png" alt=""></a>
+            </div>
+            <h4 class="h4text">Sit amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. quis ipsum suspendisse ultrices gravida.</h4>
+            <div class="social-links">
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="contact-links">
+              <h4>contact links</h4>
+              <div class="cont-container">
+                <div class="cont">
+                  <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="cont-text">
+                    <h4 class="h4text">1139, pattu nagar, mambattu, polur, tiruvannamalai 606-803</h4>
+                  </div>
+                </div>
+                <div class="cont">
+                  <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="cont-text">
+                    <h4 class="h4text"><a href="tel:+916381692962">+916381692962</a></h4>
+                  </div>
+                </div>
+                <div class="cont">
+                  <div class="icon">
+                    <i class="fa-regular fa-envelope"></i>
+                  </div>
+                  <div class="cont-text">
+                    <h4 class="h4text"><a href="mailto:madhavangl20@gmail.com">madhavangl20@gmail.com</a></h4>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="rights">
+          <h4 class="h4text">Copyright © 2024 madhavan. All Rights Reserved.</h4>
+          
+            <ul class="other-links">
+              <li><a href="">setting & privacy</a></li>
+              <li><a href="">faqs</a></li>
+              <li><a href="">payment</a></li>
+            </ul>
+        </div>
+    </div>
+    </section>
+
+    <script src="./assets/javascript/script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
